@@ -1,0 +1,8 @@
+<h1>blog dteail</h1> <a href="{% url 'home' %}">Back Home</a>
+
+<li>{{blog.author}}</li>
+<li>{{blog.title}}</li>
+<li>{{blog.date_published}}</li>
+<li><img src="{{blog.blog_image.url}}" alt=""></li>
+<li>{{blog.category}}</li>
+<li>{{blog.blog_content}}</li>
